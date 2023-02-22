@@ -1,0 +1,51 @@
+
+.boxLogo{
+   
+    width:24em;
+    height: 18em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    justify-content: center;
+}
+
+.imgCentro{
+    position: relative;
+    bottom: 190px;
+    left: 60px;
+    animation: pulsar 5s linear infinite;
+
+}
+
+.imgBorda{
+
+    animation: loading 5s linear infinite;
+}
+
+@keyFrames loading{
+    0%{
+        transform: scale(1.0) ;
+    }
+    50%{
+        transform: scale(1.4);
+    }
+    100%{
+
+        transform: scale(1.0);
+    }
+}
+
+/* @keyFrames pulsar{
+    0%{
+        transform: scale(1.0) ;
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+
+        transform: scale(1.0);
+    }
+
+} */
+
