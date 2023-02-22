@@ -50,7 +50,7 @@ function Home(){
         </div>
 
         
-        <a className={estilo.btnWhats} href="https://wa.me/5511948718100text=quero%20solicitar%20orçamento" ><img src={whats} alta="img sorvete"/></a>
+        <a className={estilo.btnWhats} href="https://wa.me/5511983940948text=quero%20solicitar%20orçamento" ><img src={whats} alta="img sorvete"/></a>
 
        
         </div>
