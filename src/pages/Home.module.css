@@ -10,11 +10,32 @@
     
 }
 
+.legend{
+    text-shadow: 0.2em 0.2em green;
+    font-weight: bolder;
+    font-size: 1.8em;
+    margin-bottom: .5em;
+
+}
+
+.legends{
+    
+    font-size: 1em;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-justify: auto;
+
+}
+
 .boxInf{
     background-color: transparent  ;
     color: white;
     display: block;
    text-align: center;
+   width: 90%;
+   margin-right: auto;
+   margin-left: auto;
 
 }
 
@@ -25,6 +46,8 @@
 .fotosProp{
     width: 100% ;
 }
+
+
 
 .btnWhats{
    position:fixed;
