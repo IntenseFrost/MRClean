@@ -19,7 +19,14 @@ import restauracaoPmadeira from '../img/restauracaoPmadeira.jpg'
 import travertino from '../img/travertino.jpg'
 import travraspagem from '../img/travraspagem.jpg'
 import poliPisos from '../img/poliPisos.jpg'
-
+import poliMarmore from '../img/poliMarmore.jpeg'
+import ladHidraulico from '../img/ladHidraulico.jpeg'
+import travertinoRomano from '../img/travertinoRomano.jpeg'
+import granitoEscovado from '../img/granitoEscovado.jpeg'
+import AplicaCor from '../img/AplicaCor.jpeg'
+import remocaoPiche from '../img/remocaoPiche.jpeg'
+import poliBanheiro from '../img/poliBanheiro.jpeg'
+import restArdosia from '../img/restArdosia.jpeg'
 
 function Home(){
     return(
@@ -54,11 +61,7 @@ function Home(){
             
         </div>
 
-        <div className={estilo.boxInf}>
-
-            <img className={estilo.fotosProp} src={muitosPotes} alta="img sorvete"/>
-            
-        </div>
+        
         <div className={estilo.boxInf}>
 
             <img className={estilo.fotosProp} src={sorveteColher} alta="img sorvete"/>
@@ -193,6 +196,78 @@ function Home(){
         <div className={estilo.boxInf}>
             <h1 className={estilo.legend}>RASPAGEM TRAVERTINO</h1>
             <img className={estilo.fotosProp} src={travraspagem} alta="img sorvete"/>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className={estilo.boxInf}>
+            <h1 className={estilo.legend}>RESTAURAÇÃO DE ARDÓSIA</h1>
+            <img className={estilo.fotosProp} src={restArdosia} alta="img sorvete"/>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className={estilo.boxInf}>
+            <h1 className={estilo.legend}>POLIMENTO DE BANHEIRO</h1>
+            <img className={estilo.fotosProp} src={poliBanheiro} alta="img sorvete"/>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className={estilo.boxInf}>
+            <h1 className={estilo.legend}>REMOÇÃO DE PICHAÇÃO</h1>
+            <img className={estilo.fotosProp} src={remocaoPiche} alta="img sorvete"/>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className={estilo.boxInf}>
+            <h1 className={estilo.legend}>APLICAÇÃO DO INTENSIFICADOR DE COR</h1>
+            <img className={estilo.fotosProp} src={AplicaCor} alta="img sorvete"/>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className={estilo.boxInf}>
+            <h1 className={estilo.legend}>GRANITO ESCOVADO</h1>
+            <img className={estilo.fotosProp} src={granitoEscovado} alta="img sorvete"/>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className={estilo.boxInf}>
+            <h1 className={estilo.legend}>TRAVERTINO ROMANO</h1>
+            <img className={estilo.fotosProp} src={travertinoRomano} alta="img sorvete"/>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className={estilo.boxInf}>
+            <h1 className={estilo.legend}>LADRÍLHO HIDRÁULICO</h1>
+            <img className={estilo.fotosProp} src={ladHidraulico} alta="img sorvete"/>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className={estilo.boxInf}>
+            <h1 className={estilo.legend}>POLIMENTO DE MÁRMORE</h1>
+            <img className={estilo.fotosProp} src={poliMarmore} alta="img sorvete"/>
 
         </div>
         <br/>
